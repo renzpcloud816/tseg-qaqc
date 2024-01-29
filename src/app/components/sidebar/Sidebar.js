@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Navigation from "./Navigation";
 
 export default function Sidebar() {
     return (
@@ -16,13 +17,7 @@ export default function Sidebar() {
                     priority
                 />
             </a>
-            <nav>
-                <ul className="divide-y divide-slate-800">
-                    <li><a href="" className="p-3 block hover:text-slate-300">Dashboard</a></li>
-                    <li><a href="" className="p-3 block hover:text-slate-300">QAQC</a></li>
-                    <li><a href="" className="p-3 block hover:text-slate-300">Sites</a></li>
-                </ul>
-            </nav>
+            <Navigation/>
         </aside>
     );
 }

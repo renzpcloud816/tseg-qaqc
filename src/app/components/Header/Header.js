@@ -1,4 +1,4 @@
-export default function Sidebar() {
+export default function Header() {
     return (
         <header className="flex flex-row items-center justify-between gap-4 px-3 py-2">
             <h1>Dashboard</h1>
