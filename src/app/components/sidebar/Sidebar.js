@@ -3,9 +3,9 @@ import Navigation from "./Navigation";
 
 export default function Sidebar() {
     return (
-        <aside className="basis-1/4 py-5">
+        <aside className="basis-1/4 p-5 border-r border-slate-900">
             <a
-                className="mb-5 inline-block px-3"
+                className="mb-3 block p-3 bg-slate-900 rounded-lg"
                 href="/"
             >
                 <Image
@@ -17,7 +17,7 @@ export default function Sidebar() {
                     priority
                 />
             </a>
-            <Navigation/>
+            <Navigation />
         </aside>
     );
 }
